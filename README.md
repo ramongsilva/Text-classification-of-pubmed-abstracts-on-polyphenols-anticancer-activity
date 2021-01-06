@@ -1,5 +1,5 @@
 <h1> Text classification of pubmed abstracts about polyphenols anticancer activity </h1>
-<p>This repository contains all files used in the supervised classification of texts about the anti-cancer activity of polyphenols, using the R language. Bellow, there are information about the files:</p>
+<p>This repository contains all files used in the supervised classification of texts about the anti-cancer activity of polyphenols, using the R language. It was used a ensemble (classifier multiple), created from the training, tests and selecting of the four machine learning algorithms with better acuracy.  Bellow, there are information about the files:</p>
 <ul>
   <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/blob/main/Rotulated-corpus.rar'>Rotulated-corpus.rar</a>: pubmed abstracts textual corpus rotulated for training and tests of machine learning algorithms</li>
   <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/blob/main/training-and-text-classification-gh.R'>training-and-text-classification-gh.R</a>: R script for Text classification of pubmed abstracts about polyphenols anticancer activity</li>
