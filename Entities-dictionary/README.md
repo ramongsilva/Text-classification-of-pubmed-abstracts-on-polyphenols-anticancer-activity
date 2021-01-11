@@ -1,5 +1,5 @@
 <h1> Entities dictionary </h1>
-<p>Bellow, its presented the files and information of entities dictionary about 3 types of entities: polyphenols, cancers and genes:</p>
+<p>In this folder are presented all files and information of entities dictionary created about 3 types of entities: polyphenols, cancers and genes:</p>
 <h3>Polyphenols</h3>
 <ul>
   <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/blob/main/Entities-dictionary/table_chemical_terms.tsv'>table_chemical_terms.tsv</a>: tsv file with entities about polyphenols. The table presented in the file contain the following fields: "cod, Name, DrugBankID, PubChemCompoundID, WikipediaID, DrugscomLink, ChemSpiderID, MeshID, idterm_descritor, term_type_idterm_type, term_type_mesh, tree".
