@@ -17,8 +17,8 @@
   </ul>
     <h3>Results of training of machine learning algorithms</h3>
   <p>Bellow is presented a table with the resulted measures of training of supervised machine learning algorithms. Thee ensemble was constructed by combining the four classifiers with the best accuracies: LogitBoost, Randon Forest, Support Vector Machine, and Maximum entropy. </p>
-  <p style="text-align:center">Table with results<br>
-    <img src='images/Table_with_results_training.jpg' ></p>
+  <span style="text-align:center"><strong>Table with results</strong></span>
+    <img src='images/Table_with_results_training.jpg' style="display:block; margin: 0 auto;">
   
   
 
