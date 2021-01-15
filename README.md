@@ -3,12 +3,8 @@
 <ul>
   <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/blob/main/Rotulated-corpus.rar'>Rotulated-corpus.rar</a>: pubmed abstracts textual corpus rotulated for training and tests of machine learning algorithms used in ensemble creation. Save this file in the same folder of training-and-text-classification-gh.R script, because it is needed to execute the script.</li>
   <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/blob/main/training-and-text-classification-gh.R'>training-and-text-classification-gh.R</a>: R script for creation of the ensemble for text classification of pubmed abstracts on anticancer activity.</li>  
-</ul>
-
-<h2>Entities Dictionary and PubMed abstracts Textual corpus created</h2>
-<ul>
-       <li><a href='#'>db_total_project.db</a>:  SQLite Database needed to execute all R scripts of kaphta architecture steps. This database contains tables with the Entity dictionary, Total PubMed abstracts textual corpus, and Pubmed abstracts classified as positive in text classification. Save this file in the same folder of training-and-text-classification-gh.R script, because it is needed to execute the script.</li>
-    <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/tree/main/Entities-dictionary'>Entities Dictionary</a>: folder with files and details about entity dictionary created for kaphta architecture.</li>
+      <li><a href='https://drive.google.com/file/d/1lQRdff2YpagowcLcdVSF5z2AO5tdwOIS/view?usp=sharing' target='_blank'>db_total_project.db</a>:  SQLite Database needed to execute all R scripts of kaphta architecture steps. This database contains tables with the<strong> Entity dictionary, Total PubMed abstracts textual corpus, and Pubmed abstracts classified as positive in text classification</strong>. Save this file in the same folder of training-and-text-classification-gh.R script, because it is needed to execute the script.</li>
+    <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/tree/main/Entities-dictionary'>Entities Dictionary</a>: folder with files and details about entity dictionary created for Kaphta architecture.</li>
     </ul>
     
 <h2>Results of Text Classification</h2>
