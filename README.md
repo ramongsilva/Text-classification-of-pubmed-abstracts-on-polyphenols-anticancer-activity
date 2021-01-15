@@ -10,10 +10,16 @@
        <li><a href='#'>db_total_project.db</a>:  SQLite Database needed to execute all R scripts of kaphta architecture steps. This database contains tables with the Entity dictionary, Total PubMed abstracts textual corpus, and Pubmed abstracts classified as positive in text classification.</li>
     <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/tree/main/Entities-dictionary'>Entities Dictionary</a>: folder with files and details about entity dictionary created for kaphta architecture.</li>
     </ul>
-
+    
 <h2>Results of Text Classification</h2>
 <ul>
       <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/blob/main/PubMed-PMID-abstracts-positives.tsv'>PubMed-PMID-abstracts-positives.tsv</a>: tsv file with <strong>pubmed abstracts classified as positive in text classification based on ensemble method.</strong></li>
+  <h3>Table with results of training </h3>
+  
+  <img src='images/Table-with-results-training.jpg' >
+  
   </ul>
+  
+  
 
 
