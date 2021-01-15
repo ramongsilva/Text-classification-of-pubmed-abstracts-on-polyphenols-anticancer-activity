@@ -13,7 +13,7 @@
     
 <h2>Results of Text Classification</h2>
 <ul>
-      <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/blob/main/PubMed-PMID-abstracts-positives.tsv'>PubMed-PMID-abstracts-positives.tsv</a>: tsv file with <strong>pubmed abstracts classified as positive in text classification based on ensemble method.</strong></li>  
+      <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/blob/main/PubMed-PMID-abstracts-positives.tsv'>PubMed-PMID-abstracts-positives.tsv</a>: tsv file with <strong>pubmed abstracts classified as positive in text classification based on ensemble method</strong>. <u>Attention: The pubmed abstracts classified as positive are available in db_total_project.db SQLite file too</u>.</li>  
   </ul>
     <h2>Results of training of machine learning algorithms</h2>
   <p>Bellow is presented a table with the resulted measures of training of supervised machine learning algorithms. Thee ensemble was constructed by combining the four classifiers with the best accuracies: LogitBoost, Randon Forest, Support Vector Machine, and Maximum entropy. </p>
