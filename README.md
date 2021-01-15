@@ -15,7 +15,7 @@
 <ul>
       <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/blob/main/PubMed-PMID-abstracts-positives.tsv'>PubMed-PMID-abstracts-positives.tsv</a>: tsv file with <strong>pubmed abstracts classified as positive in text classification based on ensemble method.</strong></li>  
   </ul>
-    <h3>Results of training of machine learning algorithms</h3>
+    <h2>Results of training of machine learning algorithms</h2>
   <p>Bellow is presented a table with the resulted measures of training of supervised machine learning algorithms. Thee ensemble was constructed by combining the four classifiers with the best accuracies: LogitBoost, Randon Forest, Support Vector Machine, and Maximum entropy. </p>
   <span style="text-align:center"><strong>Table with results</strong></span>
     <img src='images/Table_with_results_training.jpg' style="display:block; margin: 0 auto;">
