@@ -1,1 +1,1 @@
-<p>This folder contains images of repositorie.</p>
+<p>This folder contains images of repository.</p>
