@@ -6,7 +6,7 @@
       <li><a href='https://drive.google.com/file/d/1lQRdff2YpagowcLcdVSF5z2AO5tdwOIS/view?usp=sharing' target='_blank'>db_total_project.db</a>:  SQLite Database needed to execute all R scripts of kaphta architecture steps. This database contains tables with the<strong> Entity dictionary, Total PubMed abstracts textual corpus, and Pubmed abstracts classified as positive in text classification</strong>. Save this file in the same folder of training-and-text-classification-gh.R script, because it is needed to execute the script.</li>
     <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/tree/main/Entities-dictionary'>Entities Dictionary</a>: folder with files and details about entity dictionary created for Kaphta architecture.</li>
     </ul>    
-    <p>For more information about this and other steps of the Kaphta Architecture, <strong>see sections of the Kaptha Web Tool available in <a href="https://portal.ifsuldeminas.edu.br/kaphtawebtool/" target="_blank">https://portal.ifsuldeminas.edu.br/kaphtawebtool/</a></strong>.  </p>
+    <p>For more information about this and other steps of the Kaphta Architecture, <strong>see sections of the Kaptha Web Tool available in <a href="https://portal.ifsuldeminas.edu.br/kaphtawebtool/" target="_blank">https://portal.ifsuldeminas.edu.br/kaphtawebtool/</a></strong>.</p>
     
 <h2>Results of Text Classification</h2>
 <ul>
