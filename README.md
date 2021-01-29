@@ -1,5 +1,5 @@
 <h1> Text classification of PubMed abstracts on anticancer activity </h1>
-<p>This repository contains files and information about the<strong> step 1 of Kaphta Architecture: Text classification of PubMed abstracts on anticancer activity</strong>. The text classification was based on the ensemble method. In the creation (training and tests) of the ensemble were selected four machine learning algorithms with better accuracy.  Bellow, there are information about the files:</p>
+<p>This repository contains files and information about the<strong> step 1 of Kaphta Architecture: Text classification of PubMed abstracts on anticancer activity</strong>. The text classification was based on the ensemble method. In the creation (training and tests) of the ensemble were selected four machine learning algorithms with better accuracy.  Below, there are information about the files:</p>
 <ul>
   <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/blob/main/Rotulated-corpus.rar'>Rotulated-corpus.rar</a>: PubMed abstracts textual corpus rotulated for training and tests of machine learning algorithms used in ensemble creation. Save this file in the same folder of training-and-text-classification-gh.R script, because it is needed to execute the script.</li>
   <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/blob/main/training-and-text-classification-gh.R'>training-and-text-classification-gh.R</a>: R script for creation of the ensemble for text classification of PubMed abstracts on anticancer activity.</li>  
@@ -13,7 +13,7 @@
       <li><a href='https://github.com/ramongsilva/Text-classification-of-pubmed-abstracts-about-polyphenols-anticancer-activity/blob/main/PubMed-PMID-abstracts-positives.tsv'>PubMed-PMID-abstracts-positives.tsv</a>: tsv file with <strong>PubMed abstracts classified as positive in text classification based on ensemble method</strong>. <strong><span style="color:red">Attention:</span> The PubMed abstracts classified as positive are available in db_total_project.db SQLite file too</strong>.</li>  
   </ul>
     <h2>Results of training of machine learning algorithms</h2>
-  <p>Bellow is presented a table with the resulted measures of the training of supervised machine learning algorithms. The ensemble was constructed by combining the four classifiers with the best accuracies: LogitBoost, Randon Forest, Support Vector Machine, and Maximum entropy. </p>
+  <p>Below is presented a table with the resulted measures of the training of supervised machine learning algorithms. The ensemble was constructed by combining the four classifiers with the best accuracies: LogitBoost, Randon Forest, Support Vector Machine, and Maximum entropy. </p>
   <h3><strong>Table with results of the training of machine learning algorithms</h3>
     <img src='images/Table_with_results_training.jpg' style="display:block; margin: 0 auto;">
   
