@@ -44,7 +44,7 @@ df_train_r = rbind(df_train,df_train_neg)
 df_train_r2 <- df_train_r[sample(nrow(df_train_r)),]
 
 #Function to clean textual corpus
-function(htmlString) {  
+cleanFun <- function(htmlString) {  
   htmlString = gsub("[&]", "", htmlString)
   htmlString = gsub("[;]", "", htmlString)
   htmlString = gsub("<.*?>", "", htmlString)
