@@ -25,6 +25,7 @@ start_time <- Sys.time()
 
 #Setting the folder with files
 setwd("folder-project/")
+source("funcoes.R")
 
 # Reading Negative textual corpus with pubmed abstracts
 df_train_neg = data.table(read.delim("train-documents-negative.txt"))
