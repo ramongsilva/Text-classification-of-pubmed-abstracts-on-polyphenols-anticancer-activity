@@ -43,6 +43,16 @@ df_train_r = rbind(df_train,df_train_neg)
 # Preparing of random sample
 df_train_r2 <- df_train_r[sample(nrow(df_train_r)),]
 
+#Function to clean textual corpus
+function(htmlString) {  
+  htmlString = gsub("[&]", "", htmlString)
+  htmlString = gsub("[;]", "", htmlString)
+  htmlString = gsub("<.*?>", "", htmlString)
+  htmlString = gsub("tumour","tumor", htmlString)
+  htmlString = gsub("tumours","tumors", htmlString)  
+  return(htmlString)
+}
+
 # Cleaning, transformation and pre-processing of the textual corpus
 stopwords_pubmed = c('a','who', 'about','again','all','almost','also','although','always','among','an','and','another','any','are','as','at','be','because','been','before','being','between','both','but','by','can','could','do','does','done','due','during','each','either','enough','especially','for','found','from','further','had','has','have','having','here','how','however','i','if','in','into','is','it','its','itself','just','kg','km','made','mainly','make','may','mg','might','ml','mm','most','mostly','must','nearly','neither','no','nor','obtained','of','often','on','our','overall','perhaps','pmid','quite','rather','really','regarding','seem','seen','several','should','show','showed','shown','shows','significantly','since','so','some','such','than','that','the','their','theirs','them','then','there','therefore','these','they','this','those','through','thus','to','upon','use','used','using','various','very','was','we','were','what','when','which','while','with','within','without','would')
 stopwords_analyisis = c('acid','cancer','consid','mani','other','particular','phenol','posit','reduc','relationship','stimul','affect','chemoprevent','concentr','develop','higher','major' ,'polyphenol','prostat','provid','studi','will','high','highest','incid','includ','present','progress','analysi','antiinhflammatori','assess','benefici','colorect','conclus','day','drug','more','previous','relat','remain','treatment','identifi','lower','observ','recent','valu','investig','data','rat','tumor','rang','similar','dietari','follow','inflammatori','one','under','contrast','given','group','marker','respons','treat','weight','collect','induct','time','base','class','radic','resveratrol','select','two','function','repres','onli','caus','method','respect','therapi','multipl','aim','wide','current','possibl','administr','side','part','same','analyz','toward','three','character','better','releas','week')
